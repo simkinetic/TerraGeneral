@@ -4,6 +4,10 @@ local Registry = {
     url  = "git@github.com:simkinetic/TerraGeneral.git",
     description = "Cosm local package registry",
     packages = {
+        TerraUnit = {
+            ["path"] = "T/TerraUnit",
+            ["uuid"] = "410448b0-e356-4f60-a72f-5dadcb388172",
+        },
     },
 }
 return Registry
